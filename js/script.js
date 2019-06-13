@@ -4,8 +4,6 @@ $(function(){
 
 $(document).ready(function () {
   // loader
-  $("#Loader").fadeOut(1000);
-  $("#head").addClass("onLoad").fadeIn(2000);
   $("html, body").scrollTop(0);
 
   // what we do 

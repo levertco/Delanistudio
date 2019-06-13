@@ -1,12 +1,11 @@
 $(function(){
   $(".lazy").Lazy();
 });
-
 $(document).ready(function () {
   // loader
   $("html, body").scrollTop(0);
 
-  // what we do 
+  // WHATWEDO/SUBMISION
   $(".text").hide();
   $(".weDo-cont").click(function () {
     $(this).children(".text").slideToggle(0);
@@ -19,8 +18,6 @@ $(document).ready(function () {
   $(".port_cont").mouseleave(function () {
     $(this).children(".port_desc").removeClass("here").fadeIn;
   });
-
-  // submission
   $("#submission").submit(function(event){
     var data_1 = $("input:first").val();
     var data_2 = $("input#mail").val();

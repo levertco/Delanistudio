@@ -1,6 +1,6 @@
 # Delani Studio
 
-##Author: 
+### Author: 
 Levert Ouma
 
 This is a studio program that helps one practice the various jquery concepts. The project uses various plugins including the animate. css and wow.js for slide in on scroll.

@@ -36,7 +36,7 @@ $(document).ready(function () {
     }
     event.preventDefault();
   });
-
+<script id="submit">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/23bb2ef3b893128b7dc27ead4/0bc926f6513ed700c504e4992.js");</script>
 });
 
 

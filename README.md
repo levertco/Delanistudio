@@ -3,13 +3,11 @@
 ### Author: 
 Levert Ouma
 
-This is a studio program that helps one practice the various jquery concepts. The project uses various plugins including the animate. css and wow.js for slide in on scroll.
-
 ## Getting Started
 
-Install Delani Studios on your local machine by cloning this online repository:
+Install Delani Studio on your local machine by cloning this online repository:
 
-[DelaniStudio](https://github.com/levertco/DelaniStudio) - 
+[DelaniStudio](https://github.com/levertco/DelaniStudio)
 
 ### Prerequisites
 You need a web browser installed on your machine to run this program. 

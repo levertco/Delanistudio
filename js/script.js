@@ -9,8 +9,8 @@ $(document).ready(function () {
   // what we do 
   $(".text").hide();
   $(".weDo-cont").click(function () {
-    $(this).children(".text").slideToggle(500);
-    $(this).children(".hide-img").fadeToggle(500);
+    $(this).children(".text").slideToggle(0);
+    $(this).children(".hide-img").fadeToggle(0);
   });
   $(".port_desc").removeClass("here");
   $(".port_cont").mouseover(function () {

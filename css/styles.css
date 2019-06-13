@@ -1,0 +1,208 @@
+/* ----------
+  GENERALLY
+---------- */
+
+body{
+  text-align: center;
+  font-family: sans-serif;
+}
+img{
+  min-width: 12px;
+  min-height: 12px;
+}
+h3{
+  width: 100%;
+  font-family: sans-serif;
+}
+
+/* -------------
+ HEADER SECTON
+------------- */
+header{
+  background-image: url('../assets/backgrounds/h_img.jpeg');
+  height: 100vh;
+  font-family:  sans-serif;
+  letter-spacing: 3px;
+  line-height: 30px;
+  text-shadow: 0 0 20px #000;
+  
+}
+header div{
+  padding-top: 30vh;
+  color: white;
+}
+header div h1{
+  padding: 10px ;
+}
+.mouse{
+  position: absolute;
+  rightt: 50%;
+  transform: translate(-50%);
+  bottom: 6vh;
+}
+
+/* -----------------
+ ABOUT US/SERVICES
+----------------- */
+#aboutUs{
+  padding: 50px 10%;
+}
+#services{
+  background-image: url('../assets/backgrounds/s_image.jpg');
+  background-size: cover;
+  padding: 100px 10%;
+  color: white;
+}
+/* -----------------
+ WHAT WE DO SECTON
+----------------- */
+#whatWeDo{
+  padding-top: 71px;
+}
+#whatWeDo>div{
+  position: relative;
+  width: 30%;
+  min-height: 180px;
+  padding: 10px 0; 
+}
+.text{
+  overflow: hidden;
+}
+
+/* ---------------
+ PORTFOLIO SECTON
+----------------*/
+#portfolio img{
+  width: 100%;
+}
+.port_cont{
+  height: 25%;
+  width: 25%;
+  margin-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.port_desc{
+  position: absolute;
+  background: rgba(237, 237, 237, 0.63);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transform: translateX(-200%) rotate(180deg); 
+  border: 2px solid rgba(252, 252, 252, 0);
+}
+.here{
+  transform: translateX(0) rotate(0deg);
+  border: none;
+}
+#portfolio p{
+  font-family: "sans-serif;
+  font-size: 1.1em;
+  line-height: 92%;
+  margin: 20% 5%;
+  padding: 5% 0;
+  overflow: hidden; 
+}
+/* -------------
+ CONTACT SECTON
+------------- */
+#contact{
+  background-image: url('../assets/backgrounds/c_image.jpg');
+  padding: 20px 5px;
+  color: white;
+}
+.message{
+  padding: 3px 15px;
+  margin: 7px 2px;
+  width: 700px;
+  max-width: 89%;
+}
+form{
+  width: 700px;
+  max-width: 90%;
+}
+::placeholder{
+  color: rgb(204, 204, 204);
+}
+form input{
+  width:49%;
+}
+form input, form textarea{
+  background: transparent;
+  border: 1.01px solid white;
+  color: white;
+  padding: 7px;
+}
+form textarea{
+  margin-top: 20px;
+  width: 98.0%;
+}
+form input:focus, textarea:focus{
+  background: rgba(0, 0, 0, 0.733);
+  border: transparent;
+  transform: scale(1.03);
+}
+form input[type=submit]{
+  font-weight: 300;
+  font-size: 1.6em;
+  padding: 0px;
+  outline: none;
+}
+form input[type=submit]:hover{
+  outline: none;
+}
+/* ----------------
+  FOOTER SECTON
+---------------- */
+footer{
+  padding-top: 40px;
+}
+footer img{
+  border-radius: 50%;
+}
+footer img:hover{
+  transform: scale(0.8);
+  padding: 3px;
+  margin: -3px;
+}
+/* ----------
+ MEDIA QUERY
+----------- */
+@media only screen and (min-width: 1000px){
+  #portfolio>div>div>p{
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 600px){
+  header div{
+    padding-top: 30vw;
+  }  
+  #whatWeDo div{
+    width: 100%;
+    width: 49%;
+  }
+  #portfolio>div>div>p{
+    font-size: 1.5em; 
+  }
+  form input, form textarea{
+    width: 100%;
+    margin: 5px 0;
+  }
+  form input[type=submit]{
+    width: auto;
+    padding: 0 15%;
+  }
+}
+
+/* -----------------
+CONTACT/EMAIL AREA
+----------------- */
+
+.success{
+  background: rgb(0, 194, 0);
+  color: white;
+}
+.error{
+  background: rgb(218, 0, 0);
+  color: white;
+}
